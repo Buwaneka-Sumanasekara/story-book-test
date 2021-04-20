@@ -17,4 +17,8 @@ storiesOf('Button', module)
     <Button onPress={action('clicked-emoji')}>
       <Text>😀 😎 👍 💯</Text>
     </Button>
-  ));
+  )).add('test', () => (
+    <Button onPress={action('clicked-emoji')}>
+      <Text>😀 😎 👍 💯</Text>
+    </Button>
+  ));;
