@@ -9,7 +9,8 @@
     "test": "jest",
     "lint": "eslint .",
     "storybook": "start-storybook -p 7007",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token 7e5c6ee446fb"
   },
   "dependencies": {
     "react": "17.0.1",

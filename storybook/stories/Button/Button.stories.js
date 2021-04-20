@@ -9,7 +9,7 @@ import CenterView from '../CenterView';
 storiesOf('Button', module)
   .addDecorator((getStory) => <CenterView>{getStory()}</CenterView>)
   .add('with text', () => (
-    <Button onPress={action('clicked-text')} color={color("color","#FF445")}>
+    <Button onPress={action('clicked-text')} color={color("color","#FFFFFF")}>
       <Text>{text('title', 'Hello Button')}</Text>
     </Button>
   ))
